@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="dalvik_vm.h">
+      <Filter>andfire</Filter>
+    </ClInclude>
+    <ClInclude Include="andfire.h">
+      <Filter>andfire</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="android_native.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="MainActivity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="android">
+      <UniqueIdentifier>{9d1f277c-eaf6-4aaa-b7ad-b5c51a7e6c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="andfire">
+      <UniqueIdentifier>{a6cc9720-c74c-43dd-9b7e-6b52b1893345}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
